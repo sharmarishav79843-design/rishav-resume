@@ -1,0 +1,331 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rishav Sharma | Resume</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 24px;
+  background: #edf1f6;
+  color: #202b3a;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.toolbar {
+  max-width: 900px;
+  margin: 0 auto 15px;
+  text-align: right;
+}
+
+button {
+  background: #2674bb;
+  color: white;
+  padding: 11px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.resume {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  background: white;
+  box-shadow: 0 5px 25px #00000015;
+}
+
+.sidebar {
+  background: #173253;
+  color: white;
+  padding: 30px 23px;
+}
+
+.sidebar h2 {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #aab8c8;
+  padding-bottom: 7px;
+  margin: 24px 0 12px;
+}
+
+.sidebar p,
+.sidebar li,
+.sidebar strong,
+.sidebar a,
+.sidebar a:visited {
+  color: #ffffff;
+  font-size: 12.5px;
+  overflow-wrap: anywhere;
+}
+
+.sidebar a {
+  text-decoration: underline;
+}
+
+.sidebar ul {
+  padding-left: 18px;
+}
+
+.sidebar li {
+  margin-bottom: 6px;
+  line-height: 1.7;
+}
+
+.content {
+  padding: 38px 32px;
+  min-width: 0;
+}
+
+h1 {
+  color: #173253;
+  font-size: 32px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.subtitle {
+  color: #2674bb;
+  font-weight: bold;
+  margin: 12px 0 25px;
+}
+
+section {
+  margin-bottom: 22px;
+}
+
+section h2 {
+  font-size: 15px;
+  color: #2674bb;
+  border-bottom: 2px solid #dbe6f2;
+  padding-bottom: 7px;
+  margin: 0 0 12px;
+  letter-spacing: 0.5px;
+}
+
+p {
+  margin: 6px 0;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.content li {
+  margin-bottom: 6px;
+}
+
+.muted {
+  color: #5d6b7b;
+  font-size: 12px;
+}
+
+.cert-link,
+.cert-link:visited {
+  color: #1769aa;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cert-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 650px) {
+  body {
+    padding: 8px;
+  }
+
+  .resume {
+    grid-template-columns: 1fr;
+  }
+
+  .content {
+    padding: 25px 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media print {
+  @page {
+    size: A4;
+    margin: 8mm;
+  }
+
+  body {
+    padding: 0;
+    background: white;
+    font-size: 10pt;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .resume {
+    max-width: none;
+    box-shadow: none;
+  }
+
+  .sidebar {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  section {
+    break-inside: avoid;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<div class="toolbar">
+  <button onclick="window.print()">
+    Print / Save as PDF
+  </button>
+</div>
+
+<div class="resume">
+
+  <aside class="sidebar">
+
+    <h2 style="margin-top:0">CONTACT</h2>
+
+    <p>
+      <strong>Phone</strong><br>
+      <a href="tel:7817078005">7817078005</a>
+    </p>
+
+    <p>
+      <strong>Email</strong><br>
+      <a href="mailto:sharmarishav79843@gmail.com">
+        sharmarishav79843@gmail.com
+      </a>
+    </p>
+
+    <p>
+      <strong>Location</strong><br>
+      Mathura, Uttar Pradesh
+    </p>
+
+    <p>
+      <strong>LinkedIn</strong><br>
+      <a href="https://www.linkedin.com/in/rishav-sharma-316367411/"
+         target="_blank" rel="noopener">
+        View LinkedIn Profile
+      </a>
+    </p>
+
+    <h2>SKILLS</h2>
+    <ul>
+      <li>Computer Fundamentals</li>
+      <li>Python Programming</li>
+      <li>Website Development</li>
+      <li>IT Support — Area of Interest</li>
+      <li>Computer Operations</li>
+    </ul>
+
+    <h2>LANGUAGES</h2>
+    <p>Hindi</p>
+    <p>English</p>
+
+  </aside>
+
+  <main class="content">
+
+    <h1>RISHAV SHARMA</h1>
+
+    <div class="subtitle">
+      BCA STUDENT | ASPIRING IT SUPPORT / COMPUTER OPERATOR
+    </div>
+
+    <section>
+      <h2>CAREER OBJECTIVE</h2>
+      <p>
+        Motivated BCA student seeking an entry-level opportunity
+        in IT support or computer operations. Interested in
+        applying computer knowledge, improving technical skills,
+        and learning through practical experience.
+      </p>
+    </section>
+
+    <section>
+      <h2>EDUCATION</h2>
+      <p><strong>Bachelor of Computer Applications (BCA)</strong></p>
+      <p>Rajiv Academy for Technology and Management, Mathura</p>
+      <p class="muted">Currently pursuing — 3rd Semester</p>
+    </section>
+
+    <section>
+      <h2>PROJECT</h2>
+      <p><strong>Business Website</strong></p>
+      <p class="muted">Technology: Python</p>
+      <ul>
+        <li>Developed a business website as a practical project.</li>
+        <li>Gained experience in website development and programming.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>CERTIFICATES</h2>
+      <ul>
+        <li>
+          <a class="cert-link"
+             href="certificates.pdf#page=1"
+             target="_blank" rel="noopener">
+            IBM SkillsBuild — Coding Simplified with Generative AI
+          </a>
+        </li>
+
+        <li>
+          <a class="cert-link"
+             href="certificates.pdf#page=2"
+             target="_blank" rel="noopener">
+            PromptWars × Hack With Mathura — Certificate of Participation
+          </a>
+        </li>
+
+        <li>
+          <a class="cert-link"
+             href="certificates.pdf#page=3"
+             target="_blank" rel="noopener">
+            Unstop — PromptWars × Hack With Mathura
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>PERSONAL STRENGTHS</h2>
+      <ul>
+        <li>Willingness to learn</li>
+        <li>Interest in technology</li>
+        <li>Practical problem-solving</li>
+        <li>Commitment to skill development</li>
+      </ul>
+    </section>
+
+  </main>
+
+</div>
+
+</body>
+</html>
